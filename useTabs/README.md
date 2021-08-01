@@ -21,7 +21,7 @@ const App = () => {
             <h1>Tabs</h1>
             {tabs.map((section, index) => (
                 <button onClick={() => changeItem(index)}>
-                {section.title}
+                    {section.title}
                 </button>
             ))}
             <div>{currentItem.content}</div>
