@@ -1,4 +1,5 @@
 # Usage
+validtor에 조건을 넣어주어 조건에 맞지 않는 값은 input에 입력되지 못하도록 막는다.
 
 ```javascript
 import useInput from "my-hooks/useInput"

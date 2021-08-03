@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 // useEffect는 componentDidMount/Unmount/Update 역할 둘다 함
 
-export const useTitle = (initialTitle) => {
+const useTitle = (initialTitle) => {
   const [Title, setTitle] = useState(initialTitle);
 
   const updateTitle = () => {

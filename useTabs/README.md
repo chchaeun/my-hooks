@@ -1,4 +1,6 @@
 # Usage
+탭을 클릭하면 해당 탭의 내용을 표시한다.
+
 ```javascript
 import { useTabs } from "./useTabs";
 
