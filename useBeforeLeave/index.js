@@ -1,1 +1,0 @@
-export { useBeforeLeave as default } from './useBeforLeave'
