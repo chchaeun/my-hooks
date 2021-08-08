@@ -1,0 +1,24 @@
+{
+  "name": "@chooks/use-input",
+  "version": "1.0.0",
+  "description": "validtor에 조건을 넣어주어 조건에 맞지 않는 값은 input에 입력되지 못하도록 막는다.",
+  "main": "useInput.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/chchaeun/my-hooks"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "input"
+  ],
+  "author": "chchaeun",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

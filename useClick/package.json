@@ -1,0 +1,26 @@
+{
+  "name": "@chooks/use-click",
+  "version": "1.0.0",
+  "description": "요소의 클릭을 감지하고 클릭이 발생하면 특정 함수를 실행시킨다.",
+  "main": "useClick.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chchaeun/my-hooks.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "chchaeun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chchaeun/my-hooks/issues"
+  },
+  "homepage": "https://github.com/chchaeun/my-hooks#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

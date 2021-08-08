@@ -1,3 +1,5 @@
+import {useEffect, useRef} from 'react';
+
 const useFadeIn = (duration, delay) => {
     if (typeof duration !== "number" || typeof delay !== "number") {
       return;

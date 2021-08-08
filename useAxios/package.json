@@ -1,0 +1,22 @@
+{
+  "name": "@chooks/use-axios",
+  "version": "1.0.0",
+  "description": "refetch가 발생할 때마다 API 요청을 처리해준다.",
+  "main": "useAxios.js",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chchaeun/my-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "axios"
+  ],
+  "author": "chchaeun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chchaeun/my-hooks/issues"
+  },
+  "homepage": "https://github.com/chchaeun/my-hooks#readme"
+}

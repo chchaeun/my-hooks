@@ -1,0 +1,24 @@
+{
+  "name": "@chooks/use-before-leave",
+  "version": "1.0.0",
+  "description": "사용자의 마우스가 document 창을 벗어났을 때 함수를 발생시킨다. ",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chchaeun/my-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "mouse"
+  ],
+  "author": "chchaeun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chchaeun/my-hooks/issues"
+  },
+  "homepage": "https://github.com/chchaeun/my-hooks#readme"
+}

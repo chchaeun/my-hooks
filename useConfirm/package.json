@@ -1,0 +1,28 @@
+{
+  "name": "@chooks/use-confirm",
+  "version": "1.0.0",
+  "description": "요소에 이벤트가 발생했을 때 정말 그 함수를 실행할 것인지 확인한다.\r ```javascript\r export const App = () => {\r     const deleteWorld = () => console.log(\"delete the world...\");\r     const confirmDelete = useConfirm(\"Are you sure?\", deleteWorld);\r     return <button onClick={confirmDelete}>Delete the world</button>;\r   };\r ```",
+  "main": "useConfirm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chchaeun/my-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "confirm"
+  ],
+  "author": "chchaeun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chchaeun/my-hooks/issues"
+  },
+  "homepage": "https://github.com/chchaeun/my-hooks#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

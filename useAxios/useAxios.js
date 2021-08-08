@@ -8,15 +8,15 @@ const useAxios = (opts, axiosInstance = defaultAxios) => {
     error: null
   });
   
-    const [trigger, setTrigger] = useState(0);
+  const [trigger, setTrigger] = useState(0);
   
-    const refetch = ()=>{
-      setState({
-        ...state,
-        loading: true
-      })
-      setTrigger(Date.now());
-    }
+  const refetch = ()=>{
+    setState({
+      ...state,
+      loading: true
+    })
+    setTrigger(Date.now());
+  }
 
   if (!opts.url) {
     return;
